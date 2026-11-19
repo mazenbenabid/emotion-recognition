@@ -102,8 +102,6 @@ emotion-recognition/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-├── docs/
-│   └── PROJECT_EXPLAINED.md    # Detailed code walkthrough + interview Q&A
 └── results/
     ├── angry_detection.png
     ├── disgust_detection.png
@@ -176,15 +174,15 @@ python detect_image.py --image path/to/image.jpg --output annotated.jpg
 
 ## Emotion Classes
 
-| Index | Emotion | Description |
-|-------|---------|-------------|
-| 0 | Angry | Furrowed brows, tightened lips |
-| 1 | Disgust | Wrinkled nose, raised upper lip |
-| 2 | Fear | Raised eyebrows, wide eyes |
-| 3 | Happy | Smile, raised cheeks |
-| 4 | Neutral | Relaxed face, no strong expression |
-| 5 | Sad | Drooping mouth corners, lowered brows |
-| 6 | Surprise | Raised eyebrows, open mouth |
+| Index | Emotion |
+|-------|---------|
+| 0 | Angry |
+| 1 | Disgust |
+| 2 | Fear |
+| 3 | Happy |
+| 4 | Neutral |
+| 5 | Sad |
+| 6 | Surprise |
 
 ## Technical Choices
 
@@ -210,4 +208,4 @@ Python, TensorFlow/Keras, OpenCV, NumPy, Matplotlib
 
 ## Author
 
-**Mazen Ben Abid** — Engineering Student, ENSTAB
+**Mazen Ben Abid** — Engineering Student
